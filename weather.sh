@@ -10,6 +10,7 @@ curl \
   -H "Accept-Language: $LANGUAGE" \
   -H "User-Agent: $UA" \
   -o result.html \
-  #http://www.weather.com.cn/weather/101180101.shtml
   wttr.in/$CITY?format=4\&$UNIT
+  
+  #http://www.weather.com.cn/weather/101180101.shtml
 
