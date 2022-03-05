@@ -12,5 +12,5 @@ curl \
   -o result.html \
   wttr.in/$CITY?format=4
   
-  ###http://www.weather.com.cn/weather/101180101.shtml
+  ######http://www.weather.com.cn/weather/101180101.shtml
 
