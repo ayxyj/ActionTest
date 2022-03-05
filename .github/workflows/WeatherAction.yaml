@@ -29,7 +29,7 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: 天气预报 (${{env.REPORT_DATE}})
-          body: file://result.html
+          html_body: file://result.html
           to: 87089043@qq.com
           from: GitHub Actions
           content_type: text/html; charset=utf-8
