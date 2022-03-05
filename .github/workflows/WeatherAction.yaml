@@ -33,4 +33,4 @@ jobs:
           body: file://result.txt
           to: 87089043@qq.com
           from: GitHub Actions
-          content_type: text/html
+          content_type: text/plain
