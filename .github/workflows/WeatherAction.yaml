@@ -31,5 +31,5 @@ jobs:
           subject: 天气预报 (${{env.REPORT_DATE}})
           html_body: file://result.html
           to: 87089043@qq.com
-          from: GitHub Actions
+          from: GitHub [天气预报]
           content_type: text/html; charset=utf-8
