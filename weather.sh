@@ -9,6 +9,7 @@ UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 curl \
   -H "Accept-Language: $LANGUAGE" \
   -H "User-Agent: $UA" \
-  -o result.txt \
-  wttr.in/$CITY?format=4\&$UNIT
+  -o result.html \
+  http://www.weather.com.cn/weather/101180101.shtml
+  #wttr.in/$CITY?format=4\&$UNIT
 
